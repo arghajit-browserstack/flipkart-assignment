@@ -1,6 +1,6 @@
 require 'selenium/webdriver'
 
-url = "https://arghajitbhattach1:WA9pxCzgQerciqSzEm2y@hub-cloud.browserstack.com/wd/hub"
+url = ENV['BROWSERSTACK_URL']
 
 caps = Selenium::WebDriver::Remote::Capabilities.new
 
