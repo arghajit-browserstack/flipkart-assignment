@@ -21,6 +21,6 @@ end
 
 Then /^I should see results with photo with word "([^"]*)"$/ do |alt_text|
 	@elements = @browser.find_elements(:xpath,"//img[contains(@alt,'#{alt_text}')]")
-	raise "Fail" if @elements.length() == 0
+	raise "Fail" if @elements.length() != 0
 end
 
