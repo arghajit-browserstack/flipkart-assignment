@@ -1,4 +1,4 @@
-Feature: Google can search
+Feature: Search Product in Flipkart
 
 Background:
 	Given I am on Flipkart
